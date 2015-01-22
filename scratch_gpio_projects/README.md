@@ -10,6 +10,8 @@ In this lesson, we continue using Scratch, using a special GPIO (General Purpose
 ![Empty Breadboard](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/breadboard_empty.jpg)
 [zoom-in](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/breadboard_empty.jpg)
 
+![RPI and Breadboard](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/rpi_and_breadboard.jpg)
+
 **insert picture**
 
 Through the rest of the lesson, keep the breadboard oriented in a way that the 
