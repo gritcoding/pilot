@@ -21,7 +21,7 @@ etc).
 ## Blinking Light
 * Take a red LED and a 330 Ohm resistor from the kit, as well as 1 short 
 wire.
-* Connect one short wire from pin 17 (lower row 6 o the breadboard) to a 
+* Connect one short wire from pin 17 (lower row 6 on the breadboard) to a 
 free row on the breadboard, say lower row 22 (yellow cable on picture).
 * Take the LED, and connect the longer lead to lower row 22, and the 
 shorter lead to lower row 23
@@ -38,4 +38,5 @@ everything was connected properly.
 
 ![Scratch Code](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/scratch_blinking_light.png)
 
-**insert picture**
+![blinking_led_setup.jpg](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/blinking_led_setup.jpg)
+[zoom-in](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/blinking_led_setup.jpg)
