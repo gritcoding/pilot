@@ -26,6 +26,7 @@ shorter lead to lower row 23
 * Take the resistor, connect one of its lead to lower row 23, and the other 
 one to the "-" side of the 3.3V power rail.
  * You can explain to the students that the resistor slows down the current, to prevent the LED from burning out.
+* Use the **ScratchGPIO 6** icon on the deskstop to start up scratch.
 * Now create the scratch project (solution is in 
 grit_pilot/scratch_gpio_projects/blinking_led.sb)
  * This is a normal Scratch project, except some variables will be 
