@@ -1,3 +1,2 @@
-# pilot
-Materials for GRID pilot sessions
-test edit
+# GRIT repository
+[Scratch + GPIO](scratch_gpio.md)
