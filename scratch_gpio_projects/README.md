@@ -66,8 +66,8 @@ means the button is not pressed, and 0 means it's pressed. When displaying
 the sensor value on the screen, you can see its value change as you press 
 the button.
 
-![three_led_pushbutton](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/three_led_pushbutton.jpg)
-[zoom-in](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/three_led_pushbutton.jpg)
+![three_led_pushbutton](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/three_leds_pushbutton.jpg)
+[zoom-in](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/three_leds_pushbutton.jpg)
 
-![three_led_pushbutton](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/three_led_pushbutton_top.jpg)
-[zoom-in](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/three_led_pushbutton_top.jpg)
+![three_led_pushbutton](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/three_leds_pushbutton_top.jpg)
+[zoom-in](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/three_leds_pushbutton_top.jpg)
