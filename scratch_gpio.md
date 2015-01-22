@@ -8,7 +8,9 @@ In this lesson, we continue using Scratch, using a special GPIO (General Purpose
 * Start up the RPI, wait for it to boot.
 **insert picture**
 
-## Blinking Light
-* Take an LED and a resistor from the kit
+Through the rest of the lesson, keep the breadboard oriented in a way that the lettering on the breakout board is visible to you
 
+## Blinking Light
+* Take an LED and a resistor from the kit, as well as 2 short wires
+* Connect one short wire
 
