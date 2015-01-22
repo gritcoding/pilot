@@ -40,3 +40,14 @@ everything was connected properly.
 
 ![blinking_led_setup.jpg](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/blinking_led_setup.jpg)
 [zoom-in](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/blinking_led_setup.jpg)
+
+
+## Exploding Birds
+* Take 2 additional red LEDs and 2 additional 330 ohm resistors
+* Connect short wire from breakout pin 22 (lower row 8 on breadboard) to 
+lower row 24, row e.
+* Insert long lead of LED into 24,d and short lead into 25,d.
+* Insert resistor between 25,a and the "-" side of the 3.3V power rail
+* Repeat this with a second set of wire, LED and resistor, with the wire 
+gonig from 16,c to 26,e, the LED between 26,d and 27,d, and the resistor 
+between 27,a and the "-" side of the 3.3V power rail.
