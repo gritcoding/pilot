@@ -51,3 +51,6 @@ lower row 24, row e.
 * Repeat this with a second set of wire, LED and resistor, with the wire 
 gonig from 16,c to 26,e, the LED between 26,d and 27,d, and the resistor 
 between 27,a and the "-" side of the 3.3V power rail.
+* You should have 3 LEDs side by side. The pin numbers you need to use in 
+ScratchGPIO are the following, in order: pin11, pin15, pin31. (the pin 
+numbering follows no logic at all).
