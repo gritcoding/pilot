@@ -95,4 +95,4 @@ the button.
 ![three_led_pushbutton](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/three_leds_pushbutton_top.jpg)
 [zoom-in](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/three_leds_pushbutton_top.jpg)
 
-If everything is working properly, you can orient your bird with left/right arrow, then trigger the explosion with the push button, and depending on how many monsters you hit, you will see 0,1,2,3 LEDs light up.
+If everything is working properly, you can orient your bird with left/right arrow, launch it with the space bar, then trigger the explosion with the push button, and depending on how many monsters you hit, you will see 0,1,2,3 LEDs light up.
