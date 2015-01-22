@@ -28,7 +28,7 @@ grit_pilot/scratch_gpio_projects/blinking_led.sb)
 intepreted as input/output. In this case, we want to broadcast the events 
 pin11high and pin11low alternatively. This will set the voltage to 3.3V for 
 high and 0V for low.
-** You should see the blinking red LED when starting the Scratch project if 
+ * You should see the blinking red LED when starting the Scratch project if 
 everything was connected properly.
 
 **insert picture**
