@@ -54,3 +54,8 @@ between 27,a and the "-" side of the 3.3V power rail.
 * You should have 3 LEDs side by side. The pin numbers you need to use in 
 ScratchGPIO are the following, in order: pin11, pin15, pin31. (the pin 
 numbering follows no logic at all).
+* take a push button, and place on pins 28,e-30,e as well as 28,h-30,h. 
+When pushing the button, contact will be made between bins 28,e and 30,e 
+together, and similarly between 28,e and 30,e together. 
+* Take another short wire and connected it to breakout board pin 21, 20,h 
+on the breadboard. Connect the other side to 28,i
