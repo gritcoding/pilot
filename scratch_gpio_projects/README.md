@@ -53,7 +53,7 @@ gonig from 16,c to 26,e, the LED between 26,d and 27,d, and the resistor
 between 27,a and the "-" side of the 3.3V power rail.
 * You should have 3 LEDs side by side. The pin numbers you need to use in 
 ScratchGPIO are the following, in order: pin11, pin15, pin31. (the pin 
-numbering follows no logic at all).
+numbering follows no logic at all. The assignments are in the Vilros Raspberry PI manual, page 158. The Pin# column indicates what ScratchGPIO expects - i.e. pin11 while as the second one indicates the labelling on the breakout board - i.e. GPIO17).
 * take a push button, and place on pins 28,e-30,e as well as 28,h-30,h. 
 When pushing the button, contact will be made between bins 28,e and 30,e 
 together, and similarly between 28,e and 30,e together. 
@@ -65,3 +65,9 @@ the 3.3V power rail)
 means the button is not pressed, and 0 means it's pressed. When displaying 
 the sensor value on the screen, you can see its value change as you press 
 the button.
+
+![three_led_pushbutton](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/three_led_pushbutton.jpg)
+[zoom-in](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/three_led_pushbutton.jpg)
+
+![three_led_pushbutton](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/three_led_pushbutton_top.jpg)
+[zoom-in](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/three_led_pushbutton_top.jpg)
