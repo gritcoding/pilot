@@ -57,5 +57,11 @@ numbering follows no logic at all).
 * take a push button, and place on pins 28,e-30,e as well as 28,h-30,h. 
 When pushing the button, contact will be made between bins 28,e and 30,e 
 together, and similarly between 28,e and 30,e together. 
-* Take another short wire and connected it to breakout board pin 21, 20,h 
-on the breadboard. Connect the other side to 28,i
+* Take a longer wire and connect it to breakout board pin 4, 4,c. Connect 
+the other end to 28,i 
+* Connect a 330 Ohm resistor between 30,c and the 3.3V ground ("-" side of 
+the 3.3V power rail)
+* To read the push button state, we'll have to read sensor value pin7. 1 
+means the button is not pressed, and 0 means it's pressed. When displaying 
+the sensor value on the screen, you can see its value change as you press 
+the button.
