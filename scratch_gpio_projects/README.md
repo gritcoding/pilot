@@ -31,4 +31,6 @@ high and 0V for low.
  * You should see the blinking red LED when starting the Scratch project if 
 everything was connected properly.
 
+!(Scratch Code)[https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/scratch_blinking_light.png]
+
 **insert picture**
