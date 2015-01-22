@@ -60,8 +60,8 @@ The game is similar to angry birds, but with a simpler launch mecanism (angle-ba
 * Create a dead costume for them.
 * Go through the logic below and explain it to the students.
 
-![monster_logic.jpg](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/monster_script.jpg)
-[zoom-in](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/monster_script.jpg)
+![monster_logic.jpg](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/monster_logic.jpg)
+[zoom-in](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/monster_logic.jpg)
 
 ### Hardware setup
 * Take 2 additional red LEDs and 2 additional 330 ohm resistors
