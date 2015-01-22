@@ -25,12 +25,13 @@ free row on the breadboard, say lower row 22 (yellow cable on picture).
 shorter lead to lower row 23
 * Take the resistor, connect one of its lead to lower row 23, and the other 
 one to the "-" side of the 3.3V power rail.
-* Now create the scratch project (solution is is 
+ * You can explain to the students that the resistor slows down the current, to prevent the LED from burning out.
+* Now create the scratch project (solution is in 
 grit_pilot/scratch_gpio_projects/blinking_led.sb)
  * This is a normal Scratch project, except some variables will be 
 intepreted as input/output. In this case, we want to broadcast the events 
 pin11high and pin11low alternatively. This will set the voltage to 3.3V for 
-high and 0V for low.
+high (LED on) and 0V for low (LED off).
  * You should see the blinking red LED when starting the Scratch project if 
 everything was connected properly.
 
@@ -42,7 +43,7 @@ everything was connected properly.
 
 ## Exploding Birds
 ### Software
-The game is similar to angry birds, but with a simpler launch mecanism (angle-based). The bird can explode mid-flight after pressing the push button. Depending on how many monsters were hit, that many LEDs will be lit up. The solution is present in grit_pilot/scratch_gpio_projects/exploding_birds.sb. 
+The game is similar to angry birds, but with a simpler launch mecanism (angle-based). The bird  is first oriented with the left/right arrow keys, then launched with the space bar, and can explode mid-flight after pressing the push button. Depending on how many monsters were hit, that many LEDs will be lit up. The solution is present in grit_pilot/scratch_gpio_projects/exploding_birds.sb. 
 
 ![exploding_birds.jpg](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/exploding_birds.jpg)
 [zoom-in](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/exploding_birds.jpg)
@@ -92,3 +93,5 @@ the button.
 
 ![three_led_pushbutton](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/three_leds_pushbutton_top.jpg)
 [zoom-in](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/three_leds_pushbutton_top.jpg)
+
+If everything is working properly, you can orient your bird with left/right arrow, then trigger the explosion with the push button, and depending on how many monsters you hit, you will see 0,1,2,3 LEDs light up.
