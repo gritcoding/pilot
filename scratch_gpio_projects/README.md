@@ -12,8 +12,6 @@ In this lesson, we continue using Scratch, using a special GPIO (General Purpose
 
 ![RPI and Breadboard](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/rpi_and_breadboard.jpg)
 
-**insert picture**
-
 Through the rest of the lesson, keep the breadboard oriented in a way that the 
 lettering on the breakout board is visible to you (i.e. you should see SDA, GND, 
 etc).
@@ -43,6 +41,29 @@ everything was connected properly.
 
 
 ## Exploding Birds
+### Software
+The game is similar to angry birds, but with a simpler launch mecanism (angle-based). The bird can explode mid-flight after pressing the push button. Depending on how many monsters were hit, that many LEDs will be lit up. The solution is present in grit_pilot/scratch_gpio_projects/exploding_birds.sb. 
+
+![exploding_birds.jpg](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/exploding_birds.jpg)
+[zoom-in](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/exploding_birds.jpg)
+
+#### The bird
+* Import a new sprite with a bird appearance.
+* Create a new costume for it, which will look like an explosion, name that costume 'explosion'.
+* Go through the script below and explain it bit by bit to the students.
+
+![bird_script.jpg](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/bird_script.jpg)
+[zoom-in](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/bird_script.jpg)
+
+#### The monsters
+* Import a monster sprite.
+* Create a dead costume for them.
+* Go through the logic below and explain it to the students.
+
+![monster_script.jpg](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/monster_script.jpg)
+[zoom-in](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/monster_script.jpg)
+
+### Hardware setup
 * Take 2 additional red LEDs and 2 additional 330 ohm resistors
 * Connect short wire from breakout pin 22 (lower row 8 on breadboard) to 
 lower row 24, row e.
