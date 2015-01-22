@@ -6,6 +6,7 @@ In this lesson, we continue using Scratch, using a special GPIO (General Purpose
 * Have the kids setup the Raspberry PI by connecting the usual connectors (microSD card, HDMI, mouse, keyboard, power).
 * You will also connect the header cable to the breakout board, and insert the breakout board into the breadboard.
 * Start up the RPI, wait for it to boot.
+
 **insert picture**
 
 Through the rest of the lesson, keep the breadboard oriented in a way that the 
@@ -23,7 +24,7 @@ shorter lead to lower row 23
 one to the "-" side of the 3.3V power rail.
 * Now create the scratch project (solution is is 
 grit_pilot/scratch_gpio_projects/blinking_led.sb)
-** This is a normal Scratch project, except some variables will be 
+ * This is a normal Scratch project, except some variables will be 
 intepreted as input/output. In this case, we want to broadcast the events 
 pin11high and pin11low alternatively. This will set the voltage to 3.3V for 
 high and 0V for low.
