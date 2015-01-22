@@ -7,8 +7,8 @@ In this lesson, we continue using Scratch, using a special GPIO (General Purpose
 * You will also connect the header cable to the breakout board, and insert the breakout board into the breadboard.
 * Start up the RPI, wait for it to boot.
 
-![Empty Breadboard](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/empty_breadboard.jpg)
-[zoom-in](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/empty_breadboard.jpg)
+![Empty Breadboard](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/breadboard_empty.jpg)
+[zoom-in](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/breadboard_empty.jpg)
 
 **insert picture**
 
