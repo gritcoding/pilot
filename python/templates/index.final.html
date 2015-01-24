@@ -1,0 +1,48 @@
+$def with (enter, date, hour)
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Remote Doorbell</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	</head>
+
+	<body>
+
+		<div class="container">
+
+			<div class="jumbotron">
+				<img src="static/image.jpg" width="100%"/>
+			</div>
+
+
+			<div>
+				$if enter=="allow":
+					<h1 class="text-center bg-success">Allowed!</h1>
+				$elif enter=="deny":
+					<h1 class="text-center bg-danger">Denied!</h1>
+				$else:
+					<p class="text-center bg-primary">
+						$if hour > 4 and hour < 12:
+							Good Morning. 
+						$elif hour >=12 and hour < 18:
+							Good Afternoon.
+						$else:
+							Good Evening. 
+						It is now <strong>$date</strong>. Do you want this person to enter?
+					</p>
+
+					<form>
+						<button type="submit" class="btn btn-success btn-block"
+							name="enter" value="allow">Enter</button>
+						<button type="submit" class="btn btn-danger btn-block"
+							name="enter" value="deny">You shall not pass</button>
+					</form>
+			</div>
+
+		</div>
+	</body>
+</html>
+
