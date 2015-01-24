@@ -111,6 +111,12 @@ the button.
 
 If everything is working properly, you can orient your bird with left/right arrow, launch it with the space bar, then trigger the explosion with the push button, and depending on how many monsters you hit, you will see 0,1,2,3 LEDs light up.
 
+### Extra Credit
+If the kids are done early, they may be customizing their game already, adding additional graphics and things like that, so you can let them. If they need suggestions, consider the following:
+* Place monsters on the screen randomly at startup using random numbers.
+* Implement some logic in the monsters so that they try to avoid the bird.
+* Add animation when a monster dies, maybe jump up, do a backflip and then switch to dead costume.
+
 ## Bird Vs Monster (Afternoon)
 In this project, we are building an angry bird game where the bird is launched and must try to hit the monster. The monster is played by another player and can be moved up and down using two push buttons.
 
@@ -134,6 +140,8 @@ The solution is in grit_pilot/scratch_gpio_projects/bird_vs_monster.sb
 
 ![monster_move_up_down_script.jpg](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/monster_move_up_down_script.jpg)
 
-
-
+### Extra Credit
+* Make sure the monster cannot move beyond the edges of the screen.
+* Include an announcement after the end of the game to indicate whether the bird won or the monster won.
+* Make the bird chase the monster automatically using some logic after launch.
 
