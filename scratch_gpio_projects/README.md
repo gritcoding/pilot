@@ -61,6 +61,11 @@ You may break it down the following way:
 * Add the movement loop.
  * we want to move forward a little bit, with the **move 10 steps** block
  * we want to rotate 1 degree everytime to simulate a drop due to gravity. After rotating, the bird will continue on a downward trajectory.
+* Finally, add the "Explode" mechanism
+ * Play sound
+ * Switch costume to the explosion sprite (this is another costume for the bird, which you'll have to draw beforehand)
+ * And add the animation loop, making the sprite look progressively bigger.
+* When they try the game and realize the bird doesn't go back to its starting position correctly, explain that we need to reset the state using the **set x to** and **set y to** commands.
 
 #### The monsters
 * Import a monster sprite.
@@ -68,6 +73,13 @@ You may break it down the following way:
 * Go through the logic below and explain it to the students.
 
 ![monster_logic.jpg](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/monster_logic.jpg)
+
+You may break it down the following way:
+* First, let's make the monster move up and down, but only while we are not touching the bird.
+* Then, change costumes when we are dead.
+* Finally, add the **broadcast** block, to turn on the LED associated with that monster.
+
+Once you're done with one monster, you'll have to duplicate it 2 times, and change the pins for the LEDs for those two new monsters.
 
 ### Hardware setup
 * Take 2 additional red LEDs and 2 additional 330 ohm resistors
