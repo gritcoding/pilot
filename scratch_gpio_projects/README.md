@@ -145,3 +145,7 @@ The solution is in grit_pilot/scratch_gpio_projects/bird_vs_monster.sb
 * Include an announcement after the end of the game to indicate whether the bird won or the monster won.
 * Make the bird chase the monster automatically using some logic after launch.
 
+## Reference materials
+The ScratchGPIO website says: ***As it comes, six pins are set to be used as outputs (Pins 11,12,13,15,16 and 18) and all the rest as simple inputs (22,7,3,5,24,26,19,21,23,8 and 10)***.
+
+These numbers refer to the **Pin #** table in the Vilros manual page 158. To get the pin number on the breakout board, look at the **Name** column.
