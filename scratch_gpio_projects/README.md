@@ -15,7 +15,7 @@ Through the rest of the lesson, keep the breadboard oriented in a way that the
 lettering on the breakout board is visible to you (i.e. you should see SDA, GND, 
 etc).
 
-## Blinking Light
+## Blinking Light (Introduction)
 * Take a red LED and a 330 Ohm resistor from the kit, as well as 1 short 
 wire.
 * Connect one short wire from pin 17 (lower row 6 on the breadboard) to a 
@@ -40,7 +40,7 @@ everything was connected properly.
 ![blinking_led_setup.jpg](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/blinking_led_setup.jpg)
 
 
-## Exploding Birds
+## Exploding Birds (Morning)
 ### Software
 The game is similar to angry birds, but with a simpler launch mecanism (angle-based). The bird  is first oriented with the left/right arrow keys, then launched with the space bar, and can explode mid-flight after pressing the push button. Depending on how many monsters were hit, that many LEDs will be lit up. The solution is present in grit_pilot/scratch_gpio_projects/exploding_birds.sb. 
 
@@ -53,6 +53,14 @@ The game is similar to angry birds, but with a simpler launch mecanism (angle-ba
 * Go through the script below and explain it bit by bit to the students.
 
 ![bird_script.jpg](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/bird_script.jpg)
+
+You may break it down the following way:
+* First, let's figure out how to orient the bird, by rotating left and right based on key presses.
+* Then, add a handling for the space key, and setup the launch broadcast.
+* Add the "when I receive launch" block
+* Add the movement loop.
+ * we want to move forward a little bit, with the **move 10 steps** block
+ * we want to rotate 1 degree everytime to simulate a drop due to gravity. After rotating, the bird will continue on a downward trajectory.
 
 #### The monsters
 * Import a monster sprite.
@@ -91,7 +99,7 @@ the button.
 
 If everything is working properly, you can orient your bird with left/right arrow, launch it with the space bar, then trigger the explosion with the push button, and depending on how many monsters you hit, you will see 0,1,2,3 LEDs light up.
 
-## Bird Vs Monster
+## Bird Vs Monster (Afternoon)
 In this project, we are building an angry bird game where the bird is launched and must try to hit the monster. The monster is played by another player and can be moved up and down using two push buttons.
 
 ### Hardware setup
@@ -104,6 +112,8 @@ In this project, we are building an angry bird game where the bird is launched a
 ![two_pushbuttons.jpg](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/two_pushbuttons.jpg)
 
 ### Software
+
+The solution is in grit_pilot/scratch_gpio_projects/bird_vs_monster.sb
 
 ![bird_vs_monster_scratch.jpg](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/bird_vs_monster_scratch.jpg)
 
