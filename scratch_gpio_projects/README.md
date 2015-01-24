@@ -8,7 +8,6 @@ In this lesson, we continue using Scratch, using a special GPIO (General Purpose
 * Start up the RPI, wait for it to boot.
 
 ![Empty Breadboard](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/breadboard_empty.jpg)
-[zoom-in](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/breadboard_empty.jpg)
 
 ![RPI and Breadboard](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/rpi_and_breadboard.jpg)
 
@@ -39,7 +38,6 @@ everything was connected properly.
 ![Scratch Code](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/scratch_blinking_light.png)
 
 ![blinking_led_setup.jpg](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/blinking_led_setup.jpg)
-[zoom-in](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/blinking_led_setup.jpg)
 
 
 ## Exploding Birds
@@ -47,7 +45,7 @@ everything was connected properly.
 The game is similar to angry birds, but with a simpler launch mecanism (angle-based). The bird  is first oriented with the left/right arrow keys, then launched with the space bar, and can explode mid-flight after pressing the push button. Depending on how many monsters were hit, that many LEDs will be lit up. The solution is present in grit_pilot/scratch_gpio_projects/exploding_birds.sb. 
 
 ![exploding_birds.jpg](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/exploding_birds.jpg)
-[zoom-in](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/exploding_birds.jpg)
+
 
 #### The bird
 * Import a new sprite with a bird appearance.
@@ -55,7 +53,6 @@ The game is similar to angry birds, but with a simpler launch mecanism (angle-ba
 * Go through the script below and explain it bit by bit to the students.
 
 ![bird_script.jpg](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/bird_script.jpg)
-[zoom-in](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/bird_script.jpg)
 
 #### The monsters
 * Import a monster sprite.
@@ -63,7 +60,6 @@ The game is similar to angry birds, but with a simpler launch mecanism (angle-ba
 * Go through the logic below and explain it to the students.
 
 ![monster_logic.jpg](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/monster_logic.jpg)
-[zoom-in](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/monster_logic.jpg)
 
 ### Hardware setup
 * Take 2 additional red LEDs and 2 additional 330 ohm resistors
@@ -90,9 +86,32 @@ the sensor value on the screen, you can see its value change as you press
 the button.
 
 ![three_led_pushbutton](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/three_leds_pushbutton.jpg)
-[zoom-in](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/three_leds_pushbutton.jpg)
 
 ![three_led_pushbutton](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/three_leds_pushbutton_top.jpg)
-[zoom-in](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/three_leds_pushbutton_top.jpg)
 
 If everything is working properly, you can orient your bird with left/right arrow, launch it with the space bar, then trigger the explosion with the push button, and depending on how many monsters you hit, you will see 0,1,2,3 LEDs light up.
+
+## Bird Vs Monster
+In this project, we are building an angry bird game where the bird is launched and must try to hit the monster. The monster is played by another player and can be moved up and down using two push buttons.
+
+### Hardware setup
+* Compared to the previous setup, we are removing all LEDs, and adding another push button.
+* Connect a pushbutton on breadboard pins 23,e-25,e and 23,h-25,h
+* Connect a 330 ohm resistor between 3.3V - and 25,e
+* Connect a wire between 11,c and 23,i
+* The newly connected push button can be accessed using sensor value 21 in scratch.
+
+![two_pushbuttons.jpg](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/two_pushbuttons.jpg)
+
+### Software
+
+![bird_vs_monster_scratch.jpg](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/bird_vs_monster_scratch.jpg)
+
+* The bird logic is similar to before, except it doesn't explode and doesn't listen to any sensor input.
+* The monster, instead of moving up and down sequentially, moves up and down based on button press states.
+
+![monster_move_up_down_script.jpg](https://raw.githubusercontent.com/gritcoding/pilot/master/scratch_gpio_projects/images/monster_move_up_down_script.jpg)
+
+
+
+
